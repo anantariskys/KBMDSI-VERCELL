@@ -1,0 +1,36 @@
+.whiteBorder {
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: white;
+}
+
+.whiteBorderSlim {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.whiteBorderExtraSlim {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+.orangeBorder {
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #D56C3A;
+}
+
+@media (min-width: 768px) { 
+        .whiteBorderSlim {
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: white;
+    }
+ }
+
+ @media (min-width: 1024px) { 
+    .whiteBorderSlim {
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+}
+  }
+
+
+
+
